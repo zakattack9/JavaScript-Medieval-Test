@@ -51,7 +51,7 @@ function weaponOfMerlin(combat, wizard){
     console.log(wizard + " shall slay the " + monster + " with the " + combat + ".");
   }
   else{
-    combat = weaponChest[1]
+    combat = weaponChest[1];
     console.log(wizard + " is ready for war with the " + combat + " in hand.");
   }
 }
