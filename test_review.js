@@ -46,13 +46,13 @@ function epicBattle(wizard, enemy, power){
 epicBattle(hero.wizard, monster, hero.power);
 
 //Merlin's Weapon
-function weaponOfMerlin(combat){
+function weaponOfMerlin(combat, wizard){
   if(combat == "Sorcerer's Stone"){
-    console.log(hero.wizard + " shall slay the " + monster + " with the " + combat + ".");
+    console.log(wizard + " shall slay the " + monster + " with the " + combat + ".");
   }
   else{
     combat = weaponChest[1]
-    console.log(hero.wizard + " is ready for war with the " + combat + " in hand.");
+    console.log(wizard + " is ready for war with the " + combat + " in hand.");
   }
 }
-weaponOfMerlin(hero.weapon);
+weaponOfMerlin(hero.weapon, hero.wizard);
