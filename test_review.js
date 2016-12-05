@@ -1,3 +1,6 @@
+/* Zak Sakata | November 16, 2016 | Javascript Test Review */
+/* ctrl + shift + / */
+
 //Variables
 var knight = "Gwain";
 var maiden = "Guinevere";
